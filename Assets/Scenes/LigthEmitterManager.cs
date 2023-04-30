@@ -21,4 +21,7 @@ public class LigthEmitterManager : MonoBehaviour
         LeanTween.moveZ(lightt, 30, 2f).setEasePunch().setRepeat(20); 
 
     }
+    public void StopTest() {
+        LeanTween.cancel(lightt);
+    }
 }

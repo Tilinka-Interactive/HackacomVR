@@ -37,10 +37,10 @@ public class ObjectController : MonoBehaviour
     // The objects are about 1 meter in radius, so the min/max target distance are
     // set so that the objects are always within the room (which is about 5 meters
     // across).
-    private const float _minObjectDistance = 2.5f;
-    private const float _maxObjectDistance = 3.5f;
+    private const float _minObjectDistance = 1.5f;
+    private const float _maxObjectDistance = 2.5f;
     private const float _minObjectHeight = 0.5f;
-    private const float _maxObjectHeight = 3.5f;
+    private const float _maxObjectHeight = 2.5f;
 
     private Renderer _myRenderer;
     private Vector3 _startingPosition;
